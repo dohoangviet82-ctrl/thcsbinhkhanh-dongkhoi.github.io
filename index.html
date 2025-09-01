@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trường THCS Bình Khánh</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; }
+    footer { background-color: #0d6efd; color: white; padding: 15px; margin-top: 30px; }
+    .hero { background: #0d6efd; color: white; padding: 50px 20px; text-align: center; }
+  </style>
+</head>
+<body>
+  <!-- Thanh menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">THCS Bình Khánh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">Tin tức</a></li>
+          <li class="nav-item"><a class="nav-link" href="#library">Thư viện</a></li>
+          <li class="nav-item"><a class="nav-link" href="#schedule">Thời khóa biểu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Trang chủ -->
+  <section id="home" class="hero">
+    <h1>Chào mừng đến Website Giáo dục</h1>
+    <p>Cùng nhau học tập, sáng tạo và phát triển</p>
+  </section>
+
+  <!-- Giới thiệu -->
+  <section id="about" class="container py-5">
+    <h2>Giới thiệu</h2>
+    <p>Trường THCS Bình Khánh - Nơi chắp cánh ước mơ cho học sinh.</p>
+  </section>
+
+  <!-- Tin tức -->
+  <section id="news" class="container py-5">
+    <h2>Tin tức & Thông báo</h2>
+    <ul>
+      <li>📢 Thông báo khai giảng năm học mới</li>
+      <li>🏆 Kết quả học sinh giỏi cấp huyện</li>
+      <li>📅 Lịch thi giữa kỳ 1</li>
+    </ul>
+  </section>
+
+  <!-- Thư viện -->
+  <section id="library" class="container py-5">
+    <h2>Thư viện bài giảng</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">📘 Bài giảng Toán 7</h5>
+            <p class="card-text">Chủ đề: Biểu thức đại số</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">📗 Bài giảng Tin học 7</h5>
+            <p class="card-text">Chủ đề: Thiết bị vào – ra</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thời khóa biểu -->
+  <section id="schedule" class="container py-5">
+    <h2>Thời khóa biểu</h2>
+    <table class="table table-bordered text-center">
+      <thead class="table-primary">
+        <tr>
+          <th>Thứ</th>
+          <th>Môn học</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thứ 2</td>
+          <td>Toán, Văn, Anh</td>
+        </tr>
+        <tr>
+          <td>Thứ 3</td>
+          <td>Tin, Sử, Sinh</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Liên hệ -->
+  <section id="contact" class="container py-5">
+    <h2>Liên hệ</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Họ và tên">
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" rows="3" placeholder="Nội dung liên hệ"></textarea>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary w-100">Gửi phản hồi</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    © 2025 Trường THCS Bình Khánh - Thiết kế bởi ChatGPT
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
